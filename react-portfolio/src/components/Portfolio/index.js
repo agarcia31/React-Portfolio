@@ -1,41 +1,40 @@
 import React, { useState } from 'react';
 import Project from "../Project";
 
+
 function Portfolio() {
 
-  // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
-      name: 'surf-report',
-      description: 'MERN Stack',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: "Only-Recipe",
+      description: "A fun app where you can make a profile, add recipes, and look up different recipes.",
+      link: "https://only-recipes-app.herokuapp.com/",
+      repo: "https://github.com/agarcia31/only-recipes",
+      image: "../components/Images/Only-Recipe", // make sure to provide the correct path
     },
     {
-      name: 'pastel-puzzels',
-      description: 'MERN Stack',
+      name: "what2game",
+      description: "A fun app to find a new game.",
       link: "https://github.com",
-      repo: "https://github.com"
+      repo: "https://github.com",
+      image: "./component/Images/what2game.jpg", // make sure to provide the correct path
     },
     {
-      name: 'run-buddy',
-      description: 'HTML/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: "NoteTaker",
+      description: "A fun app to help take notes.",
+      link: "https://agnotetaker.herokuapp.com/",
+      repo: "https://github.com/agarcia31/NoteTaker",
+      image: "./component/Images/note-taker.jpg", // make sure to provide the correct path
     },
     {
-      name: 'led-wall',
-      description: 'Node/IoT',
-      link: "https://github.com",
-      repo: "https://github.com"
-    },
-    {
-      name: 'calculator',
-      description: 'React/JavaScript/CSS',
-      link: "https://github.com",
-      repo: "https://github.com"
+      name: "Weather App",
+      description: "A fun app to check the weather .",
+      link: "https://agarcia31.github.io/Weather-DashBoard/",
+      repo: "https://github.com/agarcia31/Weather-DashBoard",
+      image: "./component/Images/weather-app.jpg", // make sure to provide the correct path
     },
   ]);
+  
 
   return (
     <div>

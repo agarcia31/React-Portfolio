@@ -1,20 +1,14 @@
-import React from 'react';
-// import { removeHyphensAndCapitalize } from '../../utils/helpers';
+import React from "react";
 
 function Project({ project }) {
-
-  const { name, repo, link, description } = project;
+  const { name, repo, link, description, image } = project;
 
   return (
     <div className="project" key={name}>
-      <img
-        // src={require(`../../assets/projects/${name}.jpg`).default}
-        alt={(name)}
-        className="project-bg"
-      />
+      <img src={image} alt={name} className="project-bg" />
       <div className="project-text">
         <h3>
-          <a href={link}>{(name)}</a>{' '}
+          <a href={link}>{name}</a>{" "}
           <a href={repo}>
             <i className="fab fa-github"></i>
           </a>
@@ -26,3 +20,6 @@ function Project({ project }) {
 }
 
 export default Project;
+
+
+

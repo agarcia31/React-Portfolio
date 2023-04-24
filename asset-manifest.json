@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d656d81.css",
-    "main.js": "/static/js/main.808d9ffb.js",
-    "static/media/me.jpg": "/static/media/me.4e8e4874e75d57b2d4b2.jpg",
-    "static/media/what2game.jpg": "/static/media/what2game.f861dfb18848b3fcacf9.jpg",
-    "static/media/cover-image.jpg": "/static/media/cover-image.d2de118cae82bd2fac3f.jpg",
-    "static/media/notetaker.png": "/static/media/notetaker.490a996e4bfc6b6dd324.png",
-    "index.html": "/index.html",
-    "main.6d656d81.css.map": "/static/css/main.6d656d81.css.map",
-    "main.808d9ffb.js.map": "/static/js/main.808d9ffb.js.map"
+    "main.css": "/agarcia31/React-Portfolio/static/css/main.6d656d81.css",
+    "main.js": "/agarcia31/React-Portfolio/static/js/main.49b3c60c.js",
+    "static/media/me.jpg": "/agarcia31/React-Portfolio/static/media/me.4e8e4874e75d57b2d4b2.jpg",
+    "static/media/what2game.jpg": "/agarcia31/React-Portfolio/static/media/what2game.f861dfb18848b3fcacf9.jpg",
+    "static/media/cover-image.jpg": "/agarcia31/React-Portfolio/static/media/cover-image.d2de118cae82bd2fac3f.jpg",
+    "static/media/notetaker.png": "/agarcia31/React-Portfolio/static/media/notetaker.490a996e4bfc6b6dd324.png",
+    "index.html": "/agarcia31/React-Portfolio/index.html",
+    "main.6d656d81.css.map": "/agarcia31/React-Portfolio/static/css/main.6d656d81.css.map",
+    "main.49b3c60c.js.map": "/agarcia31/React-Portfolio/static/js/main.49b3c60c.js.map"
   },
   "entrypoints": [
     "static/css/main.6d656d81.css",
-    "static/js/main.808d9ffb.js"
+    "static/js/main.49b3c60c.js"
   ]
 }

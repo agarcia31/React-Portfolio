@@ -9,7 +9,8 @@ function About() {
           <img src={me} alt="Myself" style={{ width: "300px" }} />
         </div>
         <p>Hello Let's do this one more time!</p>
-        <p>
+        <p> 
+          
           My name is Andres Garcia, but you can call me Andy. I'm 28 years old,
           and I love to cook, watch anime, and learn new skills. I used to work
           in retail until I quit to learn a new skill: coding! I have been

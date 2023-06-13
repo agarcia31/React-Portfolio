@@ -22,6 +22,8 @@
   - Github [agarcia31](https://github.com/agarcia31)
   - Email: [a.garcia.atn31@gmail.com](mailto:a.garcia.atn31@gmail.com)
   ## ScreenShots:
-
+  -![2023-04-23](https://user-images.githubusercontent.com/51844701/233919234-409f57c3-d852-45c7-9892-d43b024d7756.png)
+  -![2023-04-23 (2)](https://user-images.githubusercontent.com/51844701/233919240-02090687-40c4-4401-876a-916492b399c1.png)
+  -![2023-04-23 (1)](https://user-images.githubusercontent.com/51844701/233919259-d892074c-377e-452a-8b3a-80c05d4cd498.png)
   ## Deployed link
- 
+  -https://agarcia31.github.io/React-Portfolio/ 

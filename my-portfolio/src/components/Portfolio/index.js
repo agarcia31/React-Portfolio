@@ -6,10 +6,10 @@ import notetaker from '../../assets/projects/notetaker.png';
 import onlyrecipes from '../../assets/projects/onlyrecipes.jpg';
 import weatherapp from '../../assets/projects/weatherapp.jpg';
 import what2game from '../../assets/projects/what2game.jpg';
+import '../../App.css';
+
 
 function Portfolio() {
-
-  // Replace links with deployed projects and GitHub repos
   const [projects] = useState([
     {
       name: 'Note Taker',
@@ -42,17 +42,19 @@ function Portfolio() {
   ]);
 
   return (
-    <div>
-      <div className="flex-row">
-        {projects.map((project, idx) => (
-          <Project
-            project={project}
-            key={"project" + idx}
-          />
-        ))}
+    <div className="background-container">
+      <div className="flex justify-center">
+        <div className="flex flex-wrap">
+          {projects.map((project, idx) => (
+            <Project
+              project={project}
+              key={`project-${idx}`}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
-};
+}
 
 export default Portfolio;

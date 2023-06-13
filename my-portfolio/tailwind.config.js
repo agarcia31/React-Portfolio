@@ -4,10 +4,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'custom-color': '#00CF06',
         'hover-color': '#336600',
       },
+      textColor: {
+        'custom-hover': '#10FF26',
+      }
     },
   },
   plugins: [],
-}
+};
+
 

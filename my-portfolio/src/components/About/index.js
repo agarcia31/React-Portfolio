@@ -28,7 +28,7 @@ function About() {
   ];
 
   return (
-    <section className="my-5 flex" style={{ background: "#19DC16", fontFamily: "Bitter", fontSize: "24px", color: "#A5D6A7" }}>
+    <section className="flex" style={{ background: "#19DC16", fontFamily: "Bitter", fontSize: "24px", color: "#A5D6A7" }}>
       <div className="w-1/4">
         <div className="profile-img">
           <img className="w-full rounded-lg" style={{ background: "#008000", border: "10px solid #AEB6BF" }} src={me} alt="Myself" />

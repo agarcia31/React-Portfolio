@@ -1,0 +1,12 @@
+body {
+    background-image: url("./assets/background/background.jpg");
+    background-color: #07e725; /* Specify the background color */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply; /* Adjust the blend mode as needed */
+    /* Add more styles as needed */
+  }
+  
+  
+  
+  

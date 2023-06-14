@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 
 import { validateEmail } from '../../utils/helpers';
 
@@ -19,7 +20,16 @@ function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!errorMessage) {
-      console.log('Submit Form', formState);
+      axios
+        .post('/api/contact', formState)
+        .then((response) => {
+          console.log('Email sent successfully');
+          // Handle success, e.g., show a success message or reset the form
+        })
+        .catch((error) => {
+          console.log('Failed to send email', error);
+          // Handle error, e.g., display an error message
+        });
     }
   };
 

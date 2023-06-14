@@ -28,14 +28,14 @@ function About() {
   ];
 
   return (
-    <section className="flex" style={{ background: "#19DC16", fontFamily: "Bitter", fontSize: "24px", color: "#A5D6A7" }}>
+    <section className="flex" style={{ background: "#19DC16", fontFamily: "Bitter", fontSize: "24px", color: "#145A32 " }}>
       <div className="w-1/4">
         <div className="profile-img">
           <img className="w-full rounded-lg" style={{ background: "#008000", border: "10px solid #AEB6BF" }} src={me} alt="Myself" />
         </div>
       </div>
       <div className="w-1/6 flex flex-col p-4 rounded-lg" style={{ background: "#008000", border: "10px solid #78909C" }}>
-        <h2 className="font-bold mb-2 rounded-lg text-center" style={{ background: "#009900", border: "5px solid #78909C", color: "#A5D6A7"}}>
+        <h2 className="font-bold mb-2 rounded-lg text-center" style={{ background: "#145A32 ", border: "5px solid #78909C", color: "#A5D6A7"}}>
           Job History
         </h2>
         <ul className="rounded-lg text-center" style={{ background: "#009900", border: "5px solid #78909C" }}>
@@ -46,7 +46,7 @@ function About() {
       </div>
       <div className="flex-1 p-4 text-center rounded-lg" style={{ background: "#008000", border: "10px solid #AEB6BF" }}>
         <div className="">
-          <p className=" p-4 font-bold rounded-lg" style={{ background: "#009900", border: "8px solid #AEB6BF", color: "#A5D6A7",fontSize: "66px", textDecoration: "wavy", fontFamily: "Permanent Marker" }}>
+          <p className=" p-4 font-bold rounded-lg" style={{ background: "#145A32 ", border: "8px solid #AEB6BF", color: "#A5D6A7",fontSize: "66px", textDecoration: "wavy", fontFamily: "Permanent Marker" }}>
             Welcome to my page!
           </p>
           {paragraphs.map((paragraph, index) => (
@@ -72,6 +72,7 @@ function About() {
                     height: "100px",
                     alignItems: "stretch",
                     border: "5px solid #AEB6BF",
+                    color: "#A5D6A7"
                   }}
                 >
                   {toggleNames[index]}

@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.6d656d81.css",
-    "main.js": "/React-Portfolio/static/js/main.8d0ef47b.js",
+    "main.css": "/React-Portfolio/static/css/main.660fc23a.css",
+    "main.js": "/React-Portfolio/static/js/main.d7326d64.js",
     "static/media/me.jpg": "/React-Portfolio/static/media/me.4e8e4874e75d57b2d4b2.jpg",
+    "static/media/background.jpg": "/React-Portfolio/static/media/background.2ffb0ae9af68c09f6909.jpg",
     "static/media/what2game.jpg": "/React-Portfolio/static/media/what2game.f861dfb18848b3fcacf9.jpg",
     "static/media/cover-image.jpg": "/React-Portfolio/static/media/cover-image.d2de118cae82bd2fac3f.jpg",
     "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.490a996e4bfc6b6dd324.png",
     "index.html": "/React-Portfolio/index.html",
-    "main.6d656d81.css.map": "/React-Portfolio/static/css/main.6d656d81.css.map",
-    "main.8d0ef47b.js.map": "/React-Portfolio/static/js/main.8d0ef47b.js.map"
+    "main.660fc23a.css.map": "/React-Portfolio/static/css/main.660fc23a.css.map",
+    "main.d7326d64.js.map": "/React-Portfolio/static/js/main.d7326d64.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d656d81.css",
-    "static/js/main.8d0ef47b.js"
+    "static/css/main.660fc23a.css",
+    "static/js/main.d7326d64.js"
   ]
 }

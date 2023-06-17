@@ -3,7 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <section className="background-container bg-cover bg-center py-10">
-      <div className="my-2">
+      <div className="my-2" style={{ marginLeft: "20px" }}>
         <h4
           className="font-semibold mb-4"
           style={{
@@ -20,10 +20,10 @@ function Resume() {
               fontFamily: "Bitter",
               fontSize: "48px",
               color: "#145A32",
-              transition: "color 0.3s", // Add a smooth transition for the color change
+              transition: "color 0.3s",
             }}
-            onMouseEnter={(e) => (e.target.style.color = "#0CFF00")} // Set the hover color on mouse enter
-            onMouseLeave={(e) => (e.target.style.color = "#145A32")} // Reset the color on mouse leave
+            onMouseEnter={(e) => (e.target.style.color = "#0CFF00")}
+            onMouseLeave={(e) => (e.target.style.color = "#145A32")}
           >
             Resume
           </a>
@@ -42,25 +42,70 @@ function Resume() {
           >
             Front-end Proficiencies
           </h3>
-          <ul
-            className="skills-list"
-            style={{
-              background: "#D5F5E3",
-              fontFamily: "Bitter",
-              fontSize: "24px",
-              color: "#145A32",
-              display: "block",
-              padding: "10px",
-            }}
-          >
-            <li className="mb-1">HTML</li>
-            <li className="mb-1">CSS</li>
-            <li className="mb-1">JavaScript</li>
-            <li className="mb-1">jQuery</li>
-            <li className="mb-1">Responsive Design</li>
-            <li className="mb-1">React</li>
-            <li className="mb-1">Bootstrap</li>
-          </ul>
+          <div className="skills-container">
+            <ul
+              className="skills-list"
+              style={{
+                background: "#D5F5E3",
+                fontFamily: "Bitter",
+                fontSize: "24px",
+                color: "#145A32",
+                display: "inline-block",
+                padding: "30px",
+                listStyleType: "square",
+                marginTop: "10px",
+              }}
+            >
+              <li className="mb-1">
+                <span className="skill-name">HTML</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  100%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">CSS</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  100%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">JavaScript</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  80%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">jQuery</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  50%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">Responsive Design</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  85%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">React</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  75%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">Bootstrap</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  100%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">TailWind CSS</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  100%
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
         <div>
           <h3
@@ -72,30 +117,69 @@ function Resume() {
               color: "#145A32",
               display: "inline-block",
               padding: "0 10px",
+              marginTop: "20px",
             }}
           >
             Back-end Proficiencies
           </h3>
-          <ul
-            className="skills-list"
-            style={{
-              background: "#D5F5E3",
-              fontFamily: "Bitter",
-              fontSize: "24px",
-              color: "#145A32",
-              display: "block",
-              padding: "10px",
-              marginTop: "10px",
-            }}
-          >
-            <li className="mb-1">APIs</li>
-            <li className="mb-1">Node.js</li>
-            <li className="mb-1">Express.js</li>
-            <li className="mb-1">MySQL, Sequelize</li>
-            <li className="mb-1">MongoDB, Mongoose</li>
-            <li className="mb-1">REST</li>
-            <li className="mb-1">GraphQL</li>
-          </ul>
+          <div className="skills-container">
+            <ul
+              className="skills-list"
+              style={{
+                background: "#D5F5E3",
+                fontFamily: "Bitter",
+                fontSize: "24px",
+                color: "#145A32",
+                display: "inline-block",
+                padding: "30px",
+                listStyleType: "square",
+                marginTop: "10px",
+              }}
+            >
+              <li className="mb-1">
+                <span className="skill-name">APIs</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  95%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">Node.js</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  55%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">Express.js</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  60%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">MySQL, Sequelize</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  65%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">MongoDB, Mongoose</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  60%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">REST</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  75%
+                </span>
+              </li>
+              <li className="mb-1">
+                <span className="skill-name">GraphQL</span>
+                <span className="skill-level" style={{ marginLeft: "10px" }}>
+                  70%
+                </span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>

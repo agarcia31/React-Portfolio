@@ -1,11 +1,13 @@
 const express = require('express');
 const nodemailer = require('nodemailer');
+const cors = require('cors');
 require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 3001;
 
 app.use(express.json());
+app.use(cors()); // Enable CORS for all routes
 
 app.post('/api/contact', (req, res) => {
   const { name, email, message } = req.body;
@@ -46,4 +48,3 @@ app.post('/api/contact', (req, res) => {
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
-
